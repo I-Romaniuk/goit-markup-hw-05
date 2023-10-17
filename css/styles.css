@@ -672,13 +672,12 @@ a {
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
-  
 }
 .check-text a {
   color: #4d5ae5;
   text-decoration: underline;
 }
-.label-span {  
+.label-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -692,7 +691,7 @@ a {
   fill: transparent;
 }
 
-.check-input:checked + .check-text >.label-span {
+.check-input:checked + .check-text > .label-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
